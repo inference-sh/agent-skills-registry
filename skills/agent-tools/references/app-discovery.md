@@ -25,6 +25,15 @@ infsh app list --category other
 ## Search
 
 ```bash
+infsh app search "flux"
+infsh app search "video generation"
+infsh app search "tts" -l
+infsh app search "image" --category image
+```
+
+Or use the flag form:
+
+```bash
 infsh app list --search "flux"
 infsh app list --search "video generation"
 infsh app list --search "tts"

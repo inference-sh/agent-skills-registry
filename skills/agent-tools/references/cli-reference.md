@@ -24,7 +24,8 @@ curl -fsSL https://cli.inference.sh | sh
 |---------|-------------|
 | `infsh app list` | List available apps |
 | `infsh app list --category <cat>` | Filter by category (image, video, audio, text, other) |
-| `infsh app list --search <query>` | Search apps |
+| `infsh app search <query>` | Search apps |
+| `infsh app list --search <query>` | Search apps (flag form) |
 | `infsh app list --featured` | Show featured apps |
 | `infsh app list --new` | Sort by newest |
 | `infsh app list --page <n>` | Pagination |
